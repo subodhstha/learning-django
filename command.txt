@@ -9,3 +9,9 @@ django-admin startproject Project_name
 python manage.py runserver //to run project
 python manage.py startapp file_name   //create app
 
+python manage.py migrate  //build database
+
+python manage.py makemigrations //making migration 
+python manage.py migrate  //applying migration & should apply migrate every time change in models
+
+python manage.py createsuperuser //create user
